@@ -1,0 +1,24 @@
+{
+	"name": "DestinationDataset_8cs",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDemoLink",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"rowDelimiter": "",
+				"nullValue": "\\N",
+				"treatEmptyAsNull": true,
+				"skipLineCount": 0,
+				"firstRowAsHeader": false
+			},
+			"fileName": "Contractor",
+			"folderPath": "blobdemo"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "integrationblob",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "AutoResolve"
+			}
+		}
+	}
+}
